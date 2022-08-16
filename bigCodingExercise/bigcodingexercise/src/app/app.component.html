@@ -1,0 +1,10 @@
+<div>
+  <img src="{{ imgUrl }}" />
+  <div>
+    <ul>
+      <a *ngFor="let name of random10Dogs" (click)="showClicked(name)"
+        ><li>{{ name }}</li></a
+      >
+    </ul>
+  </div>
+</div>

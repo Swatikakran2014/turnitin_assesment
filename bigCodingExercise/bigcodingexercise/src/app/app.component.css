@@ -1,0 +1,18 @@
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 300px;
+  max-width: 300px;
+}
+
+div {
+  padding-top: 50px;
+  margin: auto;
+  width: 60%;
+}
+
+a {
+  color: blue;
+  cursor: pointer;
+}
